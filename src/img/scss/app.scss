@@ -1,4 +1,5 @@
-$fuentePrincipal: "Arial";
+$fuentePrincipal: "Helvetica";
+$rojito: #ff0000;
 
 body {
     font-family: $fuentePrincipal;
@@ -10,4 +11,10 @@ h1 {
 p {
     font-family: $fuentePrincipal;
 
+}
+.container{
+    font-family: $fuentePrincipal;
+    h2{
+        color: $rojito;
+    }
 }

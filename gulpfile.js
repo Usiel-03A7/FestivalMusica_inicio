@@ -1,4 +1,4 @@
-const {series, src, dest} = require('gulp'); // para importar
+const {series, src, dest, watch} = require('gulp'); // para importar
 const sass = require('gulp-sass')(require('sass'));
 
 
@@ -9,5 +9,8 @@ function css( ) {
     }))
     .pipe(dest('./bouil/css'))
 }
-
+function watchArch() {
+    watch('./src/img/scss/app.scss', css);
+}
 exports.css = css;
+exports.watchArch = watchArch;
