@@ -12,5 +12,5 @@ function css( ) {
 function watchArch() {
     watch('./src/img/scss/app.scss', css);
 }
-exports.css = css;
+
 exports.watchArch = watchArch;
