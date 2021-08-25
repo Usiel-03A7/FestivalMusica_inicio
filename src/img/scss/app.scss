@@ -1,20 +1,7 @@
-$fuentePrincipal: "Helvetica";
-$rojito: #ff0000;
+@import 'base/nomalize';
+@import 'base/variables';
+@import 'base/globales';
+ 
 
-body {
-    font-family: $fuentePrincipal;
-}
-h1 {
-    font-family: $fuentePrincipal;
 
-}
-p {
-    font-family: $fuentePrincipal;
 
-}
-.container{
-    font-family: $fuentePrincipal;
-    h2{
-        color: $rojito;
-    }
-}
