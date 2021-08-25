@@ -1,21 +1,13 @@
-const {series, parallel}= require('gulp'); // para importar
+const {series, src, dest} = require('gulp'); // para importar
+const sass = require('gulp-sass')(require('sass'));
 
-function hola (done){
-    console.log('Hola mundo, comilando en "Hola" ');
 
-    done();
-}
-function js(done) {
-    console.log('compilando JS')
-    done();
-}
-
-function compilacion(done) {
-    console.log('compilando compilacion')
-    done();
+function css( ) {
+    return src('./src/img/scss/app.scss')
+    .pipe(sass({
+        outputStyle: 'expanded'
+    }))
+    .pipe(dest('./bouil/css'))
 }
 
-
-exports.hola = hola;
-exports.js = js;
-exports.default = parallel(hola, js, compilacion); // Series o paralel (lo que queremos que se ejecute)
+exports.css = css;
