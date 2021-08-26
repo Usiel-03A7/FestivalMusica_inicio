@@ -1,13 +1,28 @@
-.header{
+.header {
     background-color: $verde;
     .contenido--header {
-       
+        padding: 2rem 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     }
     h1 {
-      
-    }   
-    
-}
-.navegacion--principal{
+        color: $blanco;
+        font-size: $regular;
+    }
 
 }
+.navegacion--principal {
+    display: flex;
+    gap: 1rem;
+    a{
+        color: $blanco; 
+        font-size: 2rem; 
+        &:hover{
+            color: $amarillo;
+        }
+    }
+    
+    }
