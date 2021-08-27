@@ -1,22 +1,41 @@
 .header {
-    background-color: $verde;
+    
+    @include phone{
+        background-color: $morado;
+    }
+    @include tablet{
+        background-color: $amarillo;
+    }
+    @include desktop{
+        background-color: $rosa;
+    }
     .contenido--header {
         padding: 2rem 0;
 
+       @include phone{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+       }
+       
 
     }
     h1 {
         color: $blanco;
-        font-size: $regular;
+        margin-bottom: 1rem;
+        text-align: center;
+        @include tablet {
+            margin-bottom: 0;
+        }
     }
 
 }
 .navegacion--principal {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    
     a{
         color: $blanco; 
         font-size: 2rem; 
@@ -26,3 +45,4 @@
     }
     
     }
+ 
