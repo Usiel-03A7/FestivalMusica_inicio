@@ -1,18 +1,11 @@
 .header {
+    background-color: $verde;
     
-    @include phone{
-        background-color: $morado;
-    }
-    @include tablet{
-        background-color: $amarillo;
-    }
-    @include desktop{
-        background-color: $rosa;
-    }
+   
     .contenido--header {
         padding: 2rem 0;
 
-       @include phone{
+       @include tablet{
         display: flex;
         justify-content: space-around;
         align-items: center;
