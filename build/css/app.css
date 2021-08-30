@@ -449,3 +449,50 @@ h3 {
   display: block;
   width: 100%;
 }
+
+.contenedor--video {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.contenedor--video h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ffffff;
+  font-size: 7rem;
+}
+.contenedor--video h2 span {
+  background-color: #f53756;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.contento {
+  display: flex;
+  width: 80rem;
+  gap: 2rem;
+}
+.contento img {
+  width: 40rem;
+}
+
+.contenedor--img {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-between;
+  width: 50rem;
+}
+.contenedor--img h3 {
+  font-size: 3rem;
+}
+.contenedor--img span {
+  color: #f53756;
+  font-weight: 700;
+}
+.contenedor--img p {
+  font-size: 1.5rem;
+}

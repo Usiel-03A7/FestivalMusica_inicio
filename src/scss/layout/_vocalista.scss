@@ -1,0 +1,33 @@
+.contento{
+    display: flex;
+    width: 80rem;
+    gap: 2rem;
+    img{
+        width: 40rem;    
+        
+    }
+}
+.contenedor--img{
+    display: flex;    
+    flex-direction: column;
+    padding: 2rem;
+    justify-content:space-between;
+    width: 50rem;
+    
+
+
+        h3 {
+            font-size: 3rem;
+        }
+        span{
+            color: $rosa;
+            font-weight: $bold;
+
+        }
+        p {
+            font-size: 1.5rem;
+            
+            
+        }
+
+}
