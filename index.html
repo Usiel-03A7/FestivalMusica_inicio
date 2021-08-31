@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock & EDM festival</title>
-    <link rel="stylesheet" href="/build/css/app.css">
-</head>
-<body>
-   <header class="header">
-       <div class="container contenido--header">
-        <h1>Rock & EDM festival</h1>
-        <nav class="navegacion--principal">
-            <a href="#">Line up</a>
-            <a href="#">Galería</a>
-            <a href="#">Boletos</a>
-        </nav>
-       </div>
-   </header>
-   <div class="video">
-    <div class="overlay">
-        <div class="container contenedor--video">
-            <h2>
-                Rock $ EDM festival
-                <span> 28 de ocutubre 2021, Colima Colima </span>
-            </h2>
-        </div>    
-    </div>
-    <video  controls mute loop autoplay> 
-        <source src="/video/concierto.mp4" type="video/mp4">
-        <source src="/video/concierto.ogg" type="video/ogg">
-        <source src="/video/concierto.webm" type="video/webm">
-    </video>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock & EDM festival</title>
+        <link rel="stylesheet" href="/build/css/app.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container contenido--header">
+                <h1>Rock & EDM festival</h1>
+                <nav class="navegacion--principal">
+                    <a href="#">Line up</a>
+                    <a href="#">Galería</a>
+                    <a href="#">Boletos</a>
+                </nav>
+            </div>
+        </header>
+        <div class="video">
+            <div class="overlay">
+                <div class="container contenedor--video">
+                    <h2>
+                        Rock $ EDM festival
+                        <span>
+                            28 de ocutubre 2021, Colima Colima
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            <video controls="controls" mute="mute" loop="loop" autoplay="autoplay">
+                <source src="/video/concierto.mp4" type="video/mp4">
+                <source src="/video/concierto.ogg" type="video/ogg">
+                <source src="/video/concierto.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="sobre--festival container">
+            <div class="imagen">
 
-<div class="container contento">
-    <img class="conenido-imgVocal" src="/src/img/imagen_vocalista.jpg" alt="#">
-    <div class="contenedor--img">
-        <h3>Rock & EDM festival</h3>
-        <span>Agosto 2022 Colima Colima</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corporis perferendis, dolore quidem porro ea quis voluptatibus iure nostrum dolorem odit unde sapiente molestias ipsa!</p>
-    </div>
-    
-</div>
-</body>
+                <img src="/src/img/imagen_vocalista.jpg" alt="vocalista">
+            </div>
+            <div class="contenido--festival">
+                <h2>Rock & EDM festival</h2>
+                <p class="fecha">Enero 2022, Colima, Colima</p>
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore laborum rem repudiandae rerum maiores id reiciendis excepturi aliquid
+                    ad. Dolores, quas ullam? Ullam, vel porro hic nisi consectetur ipsa cupiditate.</p>
+            </div>
+
+        <!-- </div>
+        <div class="container contento">
+            <img class="conenido-imgVocal" src="/src/img/imagen_vocalista.jpg" alt="#">
+            <div class="contenedor--img">
+                <h3>Rock & EDM festival</h3>
+                <span>Agosto 2022 Colima Colima</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta corporis
+                    perferendis, dolore quidem porro ea quis voluptatibus iure nostrum dolorem odit
+                    unde sapiente molestias ipsa!</p>
+            </div>
+
+        </div> -->
+    </body>
 </html>
