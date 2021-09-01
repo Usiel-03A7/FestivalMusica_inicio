@@ -24,7 +24,9 @@
   "homepage": "https://github.com/Usiel-03A7/FestivalMusica_inicio#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.0.1",
     "gulp-sass": "^5.0.0",
     "sass": "^1.38.1"
-  }
+  },
+  "dependencies": {}
 }
