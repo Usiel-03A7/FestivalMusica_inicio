@@ -32,3 +32,4 @@ function watchArch() {
 exports.imagenes = imagenes;
 exports.watchArch = watchArch;
 exports.mini = mini;
+exports.default = series(css, imagenes, watchArch)
