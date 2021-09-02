@@ -2,6 +2,7 @@ const {series, src, dest, watch} = require('gulp'); // para importar
 const sass = require('gulp-sass')(require('sass'));
 // const imagemin = import('gulp-imagemin');
 const imagemin = require('gulp-imagemin');
+const notify = require('gulp-notify')
 
 
 function css( ) {
@@ -22,6 +23,7 @@ function imagenes() {
     return src('./src/img/**/*')
     .pipe( imagemin() )
     .pipe(dest('./build/img'))
+    .pipe( notify({message: 'Ya convertí tu puta imagen. PENDEJO.'}));
     
 }
 function watchArch() {

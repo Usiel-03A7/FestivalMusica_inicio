@@ -28,5 +28,7 @@
     "gulp-sass": "^5.0.0",
     "sass": "^1.38.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-notify": "^4.0.0"
+  }
 }
